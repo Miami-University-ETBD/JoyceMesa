@@ -1,0 +1,106 @@
+/* styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Light cornflower blue */
+    color: #333; /* Darker text for readability */
+}
+
+/* Header */
+header {
+    background-color: #6495ed; /* Cornflower blue */
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 2em;
+}
+
+/* Sub-Headers (H2) */
+h2 {
+    color: #ff69b4; /* Pink */
+    margin-top: 1em;
+}
+
+/* Paragraphs */
+p {
+    line-height: 1.6;
+    margin-bottom: 1em;
+}
+
+/* Links */
+a {
+    color: #6495ed;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    padding-left: 1.5em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* Footer */
+footer {
+    background-color: #ff69b4; /* Pink */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #6495ed; /* Cornflower blue */
+    color: white;
+}
+td {
+    background-color: #f0f8ff; /* Light cornflower blue */
+}
+
+/* Flexbox layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 1em 0;
+}
+
+section {
+    flex: 3;
+    padding: 1em;
+    background-color: #e6e6fa; /* Light lavender for section background */
+    margin-right: 1em;
+}
+
+aside {
+    flex: 1;
+    background-color: #ffefd5; /* Papaya whip */
+    padding: 1em;
+    margin-left: 1em;
+}
