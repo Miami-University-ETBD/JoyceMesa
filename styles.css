@@ -7,15 +7,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     font-family: 'Inter', sans-serif;
-    background-color: #ffffff;
-    color: #333;
+    background-color: #82a0ad;
+    color: #ffffff;
     line-height: 1.6;
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
+
 /* Header Styles */
 header {
     display: flex;
@@ -24,26 +26,31 @@ header {
     padding: 1.5em;
     border-bottom: 1px solid #ddd;
 }
+
 header h1 {
     font-weight: 800;
-    color: #333;
+    color: #fff;
     font-size: 2.5em;
     text-transform: uppercase;
 }
+
 nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
 }
+
 nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     font-weight: 600;
     padding: 5px 10px;
     transition: color 0.3s ease;
 }
+
 nav ul li a:hover {
-    color: #FF1493;  /* Hot pink color for hover effect */
+    color: #e69bc3;
+    /* Hot pink color for hover effect */
 }
 
 /* Main Content Styles */
@@ -52,55 +59,67 @@ main {
     max-width: 1000px;
     margin: 2em auto;
 }
+
 section {
     margin-bottom: 2em;
 }
+
 h2 {
     font-weight: 800;
     margin-bottom: 0.5em;
-    color: #333;
+    color: #fff;
     font-size: 2em;
 }
+
 p {
     margin-bottom: 1em;
     font-size: 1.1em;
 }
+
 ul {
     list-style: none;
     padding: 0;
 }
+
 ul li {
     font-size: 1.1em;
     margin-bottom: 1em;
 }
+
 /* Italicized Text */
 b {
     font-weight: 700;
 }
+
 i {
     font-style: italic;
 }
+
 /* Footer Styles */
 footer {
-    background-color: #f8f8f8;
+    background-color: #82a0ad;
     text-align: center;
     padding: 1em 0;
     border-top: 1px solid #ddd;
     margin-top: 2em;
 }
+
 footer p {
-    color: #666;
+    color: #ffffff;
 }
+
 /* Responsive Design */
 @media (max-width: 768px) {
     header {
         flex-direction: column;
         align-items: flex-start;
     }
+
     nav ul {
         flex-direction: column;
         gap: 10px;
     }
+
     main {
         padding: 0 1em;
     }
